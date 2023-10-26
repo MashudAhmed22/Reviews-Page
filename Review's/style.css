@@ -45,8 +45,10 @@ body{
     text-indent: 20px;
 }
 .random-btn{
-    background-color: pink;
-    border:2px solid lightblue;
+    background-color: #4267B2;
+    border:2px solid ;
+    color: white;
+    padding: 1px;
     font-size: 11px;
     text-transform: uppercase;
     margin-top: 5px;
