@@ -9,10 +9,8 @@ body{
 .container{
     /* height: 60vh; */
     width: 50vw;
-    /* position: relative; */
     box-shadow:rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     margin: auto;
-    /* top: 20px; */
     text-align: center;
 }
 .title{
@@ -22,8 +20,7 @@ body{
     background-image: url(https://thumbs.dreamstime.com/b/beach-sea-18378306.jpg);
     background-size: cover;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    -webkit-text-fill-color: transparent;  
 }
 .underline{
     height: 0.1rem;
@@ -50,10 +47,8 @@ body{
 .random-btn{
     background-color: pink;
     border:2px solid lightblue;
-    /* border: none; */
     font-size: 11px;
     text-transform: uppercase;
-    /* padding: 2px; */
     margin-top: 5px;
     text-transform: capitalize;
 }
