@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    /* height: 60vh; */
+    width: 50vw;
+    /* position: relative; */
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    margin: auto;
+    /* top: 20px; */
+    text-align: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://thumbs.dreamstime.com/b/beach-sea-18378306.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.underline{
+    height: 0.1rem;
+    width: 30px;
+    background-color: blue;
+    margin-top: 5px;
+}
+#person-img img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: yellow; 
+    display: inline-block;
+    margin-top: 5px;    
+}
+#person-det{
+    text-align: justify;
+    line-height: 0.3.5rem;
+    font-size: 10px;
+    text-indent: 20px;
+}
+.random-btn{
+    background-color: pink;
+    border:2px solid lightblue;
+    /* border: none; */
+    font-size: 11px;
+    text-transform: uppercase;
+    /* padding: 2px; */
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+
